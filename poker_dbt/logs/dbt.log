@@ -1,0 +1,168 @@
+[0m20:17:14.480441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275E3651010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275E5737ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275E5737B10>]}
+
+
+============================== 20:17:14.484445 | b4ccd527-44fb-42cb-9cc7-9ee619c28adc ==============================
+[0m20:17:14.484445 [info ] [MainThread]: Running with dbt=1.11.7
+[0m20:17:14.485089 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\chris\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init poker-analytics', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:17:14.508847 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\chris\.dbt
+[0m20:17:36.649906 [debug] [MainThread]: Starter project path: C:\Users\chris\OneDrive\desktop\PokerAnalytics\poker-analytics\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:17:36.668512 [info ] [MainThread]: 
+Your new dbt project "poker_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:17:36.669069 [info ] [MainThread]: Setting up your profile.
+[0m20:17:40.650063 [info ] [MainThread]: Profile poker_analytics written to C:\Users\chris\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m20:17:40.651357 [debug] [MainThread]: Command `dbt init` succeeded at 20:17:40.651237 after 26.34 seconds
+[0m20:17:40.651698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275E581E780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275E40F9EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275E59D8050>]}
+[0m20:17:40.652048 [debug] [MainThread]: Flushing usage events
+[0m20:17:41.264909 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:10:05.989554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D868D8EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D88A0BED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D88A0BB10>]}
+
+
+============================== 19:10:06.006846 | 0a84be7a-a03c-439e-a2b2-ec403cca6769 ==============================
+[0m19:10:06.006846 [info ] [MainThread]: Running with dbt=1.11.7
+[0m19:10:06.007556 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\chris\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:10:06.134400 [info ] [MainThread]: dbt version: 1.11.7
+[0m19:10:06.134968 [info ] [MainThread]: python version: 3.13.7
+[0m19:10:06.135360 [info ] [MainThread]: python path: C:\Users\chris\OneDrive\desktop\PokerAnalytics\poker-analytics\.venv\Scripts\python.exe
+[0m19:10:06.135729 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m19:10:06.528667 [info ] [MainThread]: Using profiles dir at C:\Users\chris\.dbt
+[0m19:10:06.529206 [info ] [MainThread]: Using profiles.yml file at C:\Users\chris\.dbt\profiles.yml
+[0m19:10:06.529600 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\chris\OneDrive\Desktop\PokerAnalytics\poker-analytics\poker_dbt\dbt_project.yml
+[0m19:10:06.538026 [info ] [MainThread]: adapter type: duckdb
+[0m19:10:06.538421 [info ] [MainThread]: adapter version: 1.10.1
+[0m19:10:06.538831 [info ] [MainThread]: Configuration:
+[0m19:10:06.539246 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:10:06.539719 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:10:06.540225 [info ] [MainThread]: Required dependencies:
+[0m19:10:06.540694 [debug] [MainThread]: Executing "git --help"
+[0m19:10:06.612697 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:10:06.613123 [debug] [MainThread]: STDERR: "b''"
+[0m19:10:06.613496 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:10:06.614003 [info ] [MainThread]: Connection:
+[0m19:10:06.614481 [info ] [MainThread]:   database: data
+[0m19:10:06.615037 [info ] [MainThread]:   schema: main
+[0m19:10:06.615733 [info ] [MainThread]:   path: ../OneDrive/desktop/poker-analytics/data.duckdb
+[0m19:10:06.616135 [info ] [MainThread]:   config_options: None
+[0m19:10:06.616571 [info ] [MainThread]:   extensions: None
+[0m19:10:06.617038 [info ] [MainThread]:   settings: {}
+[0m19:10:06.617475 [info ] [MainThread]:   external_root: .
+[0m19:10:06.617949 [info ] [MainThread]:   use_credential_provider: None
+[0m19:10:06.618375 [info ] [MainThread]:   attach: None
+[0m19:10:06.618797 [info ] [MainThread]:   filesystems: None
+[0m19:10:06.619213 [info ] [MainThread]:   remote: None
+[0m19:10:06.619661 [info ] [MainThread]:   plugins: None
+[0m19:10:06.620120 [info ] [MainThread]:   disable_transactions: False
+[0m19:10:06.620810 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m19:10:07.117974 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m19:10:07.294643 [debug] [MainThread]: Using duckdb connection "debug"
+[0m19:10:07.294994 [debug] [MainThread]: On debug: select 1 as id
+[0m19:10:07.295262 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:10:07.311903 [debug] [MainThread]: DuckDB adapter: duckdb error: IO Error: Cannot open file "\\?\C:\Users\chris\OneDrive\Desktop\PokerAnalytics\poker-analytics\OneDrive\desktop\poker-analytics\data.duckdb": The system cannot find the path specified.
+
+[0m19:10:07.312289 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m19:10:07.312562 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m19:10:07.312823 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:10:07.321695 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:10:07.322350 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:10:07.322829 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\chris\OneDrive\Desktop\PokerAnalytics\poker-analytics\poker_dbt\dbt_project.yml> not found
+
+[0m19:10:07.323294 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >IO Error: Cannot open file "\\?\C:\Users\chris\OneDrive\Desktop\PokerAnalytics\poker-analytics\OneDrive\desktop\poker-analytics\data.duckdb": The system cannot find the path specified.
+
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:10:07.324547 [debug] [MainThread]: Command `dbt debug` failed at 19:10:07.324439 after 1.47 seconds
+[0m19:10:07.324921 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:10:07.325231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D803949D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0A8D70170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D80380E20>]}
+[0m19:10:07.325592 [debug] [MainThread]: Flushing usage events
+[0m19:10:07.852256 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:11:03.522571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4A2B7CEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4A4CB3ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4A4CB3B10>]}
+
+
+============================== 19:11:03.526681 | a72f2169-a758-499a-ae23-da84b7fff510 ==============================
+[0m19:11:03.526681 [info ] [MainThread]: Running with dbt=1.11.7
+[0m19:11:03.527482 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\chris\\.dbt', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:11:03.553320 [info ] [MainThread]: dbt version: 1.11.7
+[0m19:11:03.553898 [info ] [MainThread]: python version: 3.13.7
+[0m19:11:03.554476 [info ] [MainThread]: python path: C:\Users\chris\OneDrive\desktop\PokerAnalytics\poker-analytics\.venv\Scripts\python.exe
+[0m19:11:03.555000 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m19:11:03.670949 [info ] [MainThread]: Using profiles dir at C:\Users\chris\.dbt
+[0m19:11:03.671516 [info ] [MainThread]: Using profiles.yml file at C:\Users\chris\.dbt\profiles.yml
+[0m19:11:03.671983 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\chris\OneDrive\Desktop\PokerAnalytics\poker-analytics\poker_dbt\dbt_project.yml
+[0m19:11:03.675010 [info ] [MainThread]: adapter type: duckdb
+[0m19:11:03.675459 [info ] [MainThread]: adapter version: 1.10.1
+[0m19:11:03.675982 [info ] [MainThread]: Configuration:
+[0m19:11:03.676443 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:11:03.676992 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:11:03.677576 [info ] [MainThread]: Required dependencies:
+[0m19:11:03.678034 [debug] [MainThread]: Executing "git --help"
+[0m19:11:03.724835 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:11:03.725292 [debug] [MainThread]: STDERR: "b''"
+[0m19:11:03.725638 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:11:03.726168 [info ] [MainThread]: Connection:
+[0m19:11:03.726693 [info ] [MainThread]:   database: data
+[0m19:11:03.727126 [info ] [MainThread]:   schema: main
+[0m19:11:03.727605 [info ] [MainThread]:   path: ../OneDrive/desktop/poker-analytics/data
+[0m19:11:03.728013 [info ] [MainThread]:   config_options: None
+[0m19:11:03.728431 [info ] [MainThread]:   extensions: None
+[0m19:11:03.728846 [info ] [MainThread]:   settings: {}
+[0m19:11:03.729286 [info ] [MainThread]:   external_root: .
+[0m19:11:03.729668 [info ] [MainThread]:   use_credential_provider: None
+[0m19:11:03.730029 [info ] [MainThread]:   attach: None
+[0m19:11:03.730385 [info ] [MainThread]:   filesystems: None
+[0m19:11:03.730744 [info ] [MainThread]:   remote: None
+[0m19:11:03.731144 [info ] [MainThread]:   plugins: None
+[0m19:11:03.731598 [info ] [MainThread]:   disable_transactions: False
+[0m19:11:03.732288 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m19:11:04.163034 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m19:11:04.305653 [debug] [MainThread]: Using duckdb connection "debug"
+[0m19:11:04.305992 [debug] [MainThread]: On debug: select 1 as id
+[0m19:11:04.306257 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:11:04.316768 [debug] [MainThread]: DuckDB adapter: duckdb error: IO Error: Cannot open file "\\?\C:\Users\chris\OneDrive\Desktop\PokerAnalytics\poker-analytics\OneDrive\desktop\poker-analytics\data": The system cannot find the path specified.
+
+[0m19:11:04.317148 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m19:11:04.317421 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m19:11:04.317684 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:11:04.326572 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:11:04.327201 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:11:04.327673 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\chris\OneDrive\Desktop\PokerAnalytics\poker-analytics\poker_dbt\dbt_project.yml> not found
+
+[0m19:11:04.328146 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >IO Error: Cannot open file "\\?\C:\Users\chris\OneDrive\Desktop\PokerAnalytics\poker-analytics\OneDrive\desktop\poker-analytics\data": The system cannot find the path specified.
+
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:11:04.329378 [debug] [MainThread]: Command `dbt debug` failed at 19:11:04.329270 after 0.94 seconds
+[0m19:11:04.329671 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:11:04.329964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4803989D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4804B4170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B480380F30>]}
+[0m19:11:04.330311 [debug] [MainThread]: Flushing usage events
+[0m19:11:04.725842 [debug] [MainThread]: An error was encountered while trying to flush usage events
