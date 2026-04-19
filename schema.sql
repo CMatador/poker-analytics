@@ -55,14 +55,14 @@ CREATE TABLE IF NOT EXISTS hands(
     end_pot             DECIMAL(10, 2),
     hero_result         DECIMAL(10, 2),
     went_to_showdown    BOOLEAN DEFAULT FALSE,
-    villain_cards       VARCHAR
+    villain_cards       VARCHAR,
     tag                 VARCHAR,
     notes               VARCHAR,
     created_at          TIMESTAMP DEFAULT current_timestamp,
 
     -- Data entry validations
     CONSTRAINT chk_hero_card_1 CHECK(LENGTH(hero_card_1) = 2),
-    CONSTRAINT chk_hero_card_2 CHECK(LENGTH(hero_card_2) = 2)
+    CONSTRAINT chk_hero_card_2 CHECK(LENGTH(hero_card_2) = 2),
 
     CONSTRAINT chk_final_street CHECK(
         final_street IN ('preflop', 'flop', 'turn', 'river')
@@ -74,7 +74,7 @@ CREATE TABLE IF NOT EXISTS hands(
 
     CONSTRAINT chk_num_players CHECK(
         num_players BETWEEN 2 AND 9
-    )
+    ),
 
     -- Board validation: turn requires flop, river requires turn
     CONSTRAINT chk_turn_requires_flop CHECK(

@@ -1,0 +1,4 @@
+data/poker.db
+.venv/
+__pycache__/
+*.pyc
